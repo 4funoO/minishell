@@ -34,7 +34,14 @@
 **How to run:**
 1. Clone gip repositorie on your pc.
 2. Open terminal in the minishell folder and run make. 
+   (P.S. if you have error message of "rl_... command not found", 
+    you need to install latest version of "readline.h" library and change the path in Makefile to your "readline.h" directory)
+   <img width="544" alt="Screen Shot 2022-08-09 at 12 00 25 PM" src="https://user-images.githubusercontent.com/37631996/183621541-36549ed3-fb41-4f8a-9261-17f081c2106d.png">
 3. Execute ./minishell
-4. Try and have fun. 
+4. Try and have fun.
+
+Here is some examples of commands handled by minishell
+<img width="1710" alt="Screen Shot 2022-08-09 at 12 04 05 PM" src="https://user-images.githubusercontent.com/37631996/183622361-7c41b3b4-27d4-4a38-9c28-f9c171cb1a73.png">
 
 Don't hesitate to contact me for any bug found :)
+
