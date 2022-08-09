@@ -41,7 +41,7 @@
 4. Try and have fun.
 
 Here is some examples of commands handled by minishell
-<img width="1710" alt="Screen Shot 2022-08-09 at 12 04 05 PM" src="https://user-images.githubusercontent.com/37631996/183622361-7c41b3b4-27d4-4a38-9c28-f9c171cb1a73.png">
+![Screen-Recording-2022-08-09-at-4 54 29-PM](https://user-images.githubusercontent.com/37631996/183684599-8d754ab5-c852-47dd-8e6c-a64dfa3ad4c0.gif)
 
 Don't hesitate to contact me for any bug found :)
 
