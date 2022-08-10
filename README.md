@@ -30,7 +30,8 @@
    d) redirects + executor  ->   all redirections(reading from file/creating and output to the file) was handled here. 
                                  All the manipulations with forks for child and parents process along with changing
                                  standart inputs to the pipe and returning it back was handled here.
-
+***Little sheme to show how it works...***
+![Untitled](https://user-images.githubusercontent.com/37631996/183880486-e6f71df3-9ede-4a23-9edb-2c69f0f4e7b6.png)
 **How to run:**
 1. Clone gip repositorie on your pc.
 2. Open terminal in the minishell folder and run make. 
