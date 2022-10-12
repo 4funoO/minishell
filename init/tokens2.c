@@ -6,7 +6,7 @@
 /*   By: doreshev <doreshev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/04 19:35:10 by doreshev          #+#    #+#             */
-/*   Updated: 2022/07/27 13:58:25 by doreshev         ###   ########.fr       */
+/*   Updated: 2022/10/05 17:49:19 by doreshev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	ft_token_dollar(t_data *a, int i, int j)
 		i++;
 		return (i);
 	}
-	while (ft_check_symbol(a->line[i + j]) == 0 && a->line[i + j] != '$')
+	while (ft_check_symbol(a->line[i + j]) == 0 && a->line[i + j] != '$' && a->line[i + j] != '/')
 		j++;
 	ft_new_token(a, 'W', ft_token_dollar_sub(a, i, j), 1);
 	return (i + j);
